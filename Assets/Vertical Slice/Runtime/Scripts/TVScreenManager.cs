@@ -10,7 +10,7 @@ public class TVScreenManager : MonoBehaviour
     public GameObject screen3;
     public GameObject screen4;
     List<GameObject> screens = new List<GameObject>();
-    int selectedScreen;
+    public int selectedScreen;
     
 
 

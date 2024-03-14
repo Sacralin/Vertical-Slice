@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f9244a6d702034bac6e5aed2b8167a, type: 3}
+  m_Name: Norman
+  m_EditorClassIdentifier: 
+  nodesData:
+  - nodeTypeData: BasicDialogue
+    customNodeNameData: CustomNodeName
+    GUIDData: f67f3d5d-aa9c-4e0f-81cd-648c01b940b5
+    graphPositionData: {x: 485, y: 50}
+    choicesData:
+    - indexData: 0
+      choiceData: 
+      portNameData: d57fd23e-6c09-4104-8bc4-9acc43082962
+      edgeDataData:
+        sourceNodeGuidData: f67f3d5d-aa9c-4e0f-81cd-648c01b940b5
+        targetNodeGuidData: 58d079cf-64db-4382-b7ac-aaff98317a79
+    textData: "Norman comes with the \nsound of the clock."
+    flagObjectData: 
+    triggerFlagData: 
+    triggerValueData: 
+    eventTypeData: 
+  - nodeTypeData: End
+    customNodeNameData: CustomNodeName
+    GUIDData: 58d079cf-64db-4382-b7ac-aaff98317a79
+    graphPositionData: {x: 763, y: 50}
+    choicesData: []
+    textData: Dialogue Text
+    flagObjectData: 
+    triggerFlagData: 1c94339b-373b-4079-8a36-e7f88ebbc3f3
+    triggerValueData: 
+    eventTypeData: Return To Node
+  - nodeTypeData: BasicDialogue
+    customNodeNameData: CustomNodeName
+    GUIDData: cc87b9ab-ed99-4954-a53b-bf12cf39181b
+    graphPositionData: {x: 207, y: 50}
+    choicesData:
+    - indexData: 0
+      choiceData: 
+      portNameData: 338f70db-3a7e-4938-8c81-e0963171966d
+      edgeDataData:
+        sourceNodeGuidData: cc87b9ab-ed99-4954-a53b-bf12cf39181b
+        targetNodeGuidData: f67f3d5d-aa9c-4e0f-81cd-648c01b940b5
+    textData: Tik tok, tik tok
+    flagObjectData: 
+    triggerFlagData: 
+    triggerValueData: 
+    eventTypeData: 
+  - nodeTypeData: Start
+    customNodeNameData: CustomNodeName
+    GUIDData: 1c94339b-373b-4079-8a36-e7f88ebbc3f3
+    graphPositionData: {x: 50, y: 50}
+    choicesData:
+    - indexData: 0
+      choiceData: 
+      portNameData: 84f0bd99-3692-4a1c-a2b3-7a28c1f667d7
+      edgeDataData:
+        sourceNodeGuidData: 1c94339b-373b-4079-8a36-e7f88ebbc3f3
+        targetNodeGuidData: cc87b9ab-ed99-4954-a53b-bf12cf39181b
+    textData: Dialogue Text
+    flagObjectData: 
+    triggerFlagData: 
+    triggerValueData: 
+    eventTypeData: 
+  currentNode:
+    nodeTypeData: 
+    customNodeNameData: 
+    GUIDData: 
+    graphPositionData: {x: 0, y: 0}
+    choicesData: []
+    textData: 
+    flagObjectData: 
+    triggerFlagData: 
+    triggerValueData: 
+    eventTypeData: 
