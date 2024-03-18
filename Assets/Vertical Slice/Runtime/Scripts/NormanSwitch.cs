@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NormanSwitch : MonoBehaviour
 {
+    public GameObject monster;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -11,10 +13,12 @@ public class NormanSwitch : MonoBehaviour
         if ( screen == 1 || screen == 2)
         {
             this.gameObject.SetActive(true);
+            monster.gameObject.SetActive(false);
         }
         else
         {
             this.gameObject.SetActive(false);
+            monster.gameObject.SetActive(true);
         }
     }
 
